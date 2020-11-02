@@ -2,26 +2,31 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
 
-## Development server
+## Link for Hosting
+Please click on the following link,
+https://satwik5.github.io/box-generator/box
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Application view
+Application is mostly contained with 2 sections, view section and control section.
 
-## Code scaffolding
+-> View Section: Displays all the activities inside color Frame.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+-> Controller Section:
+   * Next Box is only a display view of next Box color
+   * Key control slider is a toggle button to on/off the keyboard key press events.
+   * Click me to add box is add a nex box in the main frame.
+   * Slider with range 1 to 5 is set the speed of box movement.
+   * Clear frame link is to clear all the boxes in the main frame
 
-## Build
+## Actions
+1. Click on button 'Click me to add box' will add box in above frame
+2. Repeat the above step how many many boxes need to add.
+3. Use W-A-S-D or arrow keys to move the boxes
+4. Select any Box and press delete key on keyboard, will deletes the selected box.
+5. Change the movement slider and move the boxes, observe the movement speed based on slider movement range selection.
+6. Off the key control button, check the actions based on key press. No events will be performed.
+7. Hover the box, will make opacity to display the boxes under the hover box with lesser z-index.
+8. High z-index boxes will be displayed on top.
+9. Click on clear frame, deletes all the boxes in main frame and yet to start from starting.
+10. Boxes in frame wont cross the frame border.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
